@@ -10,17 +10,11 @@ using System.Windows.Forms;
 
 namespace WindowsFormsApp1
 {
-    public partial class Form2 : Form
+    public partial class Form3 : Form
     {
-        public Form2(string text)
+        public Form3()
         {
             InitializeComponent();
-            label1.Text = text;
-        }
-
-        private void label1_Click(object sender, EventArgs e)
-        {
-
         }
     }
 }
